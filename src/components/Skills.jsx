@@ -23,41 +23,37 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-dark-900">
-      {" "}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      id="skills"
+      className="py-20 bg-dark-200"
+    >
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-2xl font-bold text-white mb-4">
-            Technical <span className="text-purple-500">Skills</span>
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Technical <span className="text-purple">Skills</span>
           </h2>
-          <div className="w-20 h-1 bg-purple-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-purple mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {skills.map((skill, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
-              viewport={{ once: true }}
-              className="group bg-dark-800 border border-white/10 rounded-xl p-6 flex flex-col items-center justify-center 
-              hover:border-purple-500/50 hover:bg-dark-700 transition-all duration-300 cursor-pointer shadow-lg"
+              className="bg-dark-300 rounded-2xl p-6 flex flex-col items-center justify-center 
+              hover:-translate-y-2 transition duration-300 cursor-pointer shadow-lg border border-white/5"
             >
-              <div
-                className={`text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 ${skill.color}`}
-              >
-                {skill.icon}
-              </div>
-
-              <h3 className="text-gray-200 font-medium tracking-wide">
+              <div className={`text-5xl mb-4 ${skill.color}`}>{skill.icon}</div>
+              <h3 className="text-gray-200 font-semibold text-lg">
                 {skill.name}
               </h3>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
-    </section>
+    </motion.div>
   );
 };
 

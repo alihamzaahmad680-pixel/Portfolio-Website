@@ -13,15 +13,15 @@ import { motion } from "framer-motion";
 
 import projectImg1 from "../assets/project3.jpeg";
 import projectImg2 from "../assets/WhatsApp Image 2026-04-22 at 8.52.17 AM.jpeg";
-import projectImg3 from "../assets/WhatsApp Image 2026-03-27 at 11.40.57 AM.jpeg";
+import projectImg3 from "../assets/project5.jpeg";
 import projectImg4 from "../assets/Breaking news on AI advancements.png";
 import projectImg5 from "../assets/project2.jpeg";
-import projectImg6 from "../assets/WhatsApp Image 2026-03-27 at 11.43.18 AM.jpeg";
+import projectImg6 from "../assets/project4.jpeg";
 
 const projects = [
   {
     title: "Greecart Website",
-    tech: ["React", "Node.js", "MongoDB", "Express"], 
+    tech: ["React", "Node.js", "MongoDB", "Express"],
     icons: [FaReact, FaNodeJs, FaDatabase],
     description:
       "A feature-rich e-commerce platform built with MERN stack, featuring secure user authentication, product filtering, and a functional shopping cart.",
@@ -44,12 +44,14 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/Food_Website_Frontend",
   },
   {
-    title: "Company Website",
-    description: "Responsive company website layout using HTML/CSS.",
-    image: projectImg3,
-    live: "https://alihamzaahmad680-pixel.github.io/companies--website/#",
-    github: "https://github.com/alihamzaahmad680-pixel/companies--website",
+    title: "Ayah Search Hub",
+    description:
+      "Explore the Holy Quran with authentic Arabic text and multi-language translations instantly.",
+    image: projectImg6,
+    live: "https://quran-aya-search-app.vercel.app/",
+    github: "https://github.com/alihamzaahmad680-pixel/Quran-Aya-Search-App",
   },
+
   {
     title: "News Website",
     description: "Dynamic news website using API with real-time updates.",
@@ -58,11 +60,11 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/News-Website",
   },
   {
-    title: "To-Do List",
-    description: "Task management app with add/delete functionality.",
-    image: projectImg6,
-    live: "https://to-do-list-sigma-black-49.vercel.app/",
-    github: "https://github.com/alihamzaahmad680-pixel/To-do-list",
+    title: "Company Website",
+    description: "Responsive company website layout using HTML/CSS.",
+    image: projectImg3,
+    live: "https://alihamzaahmad680-pixel.github.io/companies--website/#",
+    github: "https://github.com/alihamzaahmad680-pixel/companies--website",
   },
 ];
 
