@@ -24,21 +24,23 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "Express"],
     icons: [FaReact, FaNodeJs, FaDatabase],
     description:
-      "A feature-rich e-commerce platform built with MERN stack, featuring secure user authentication, product filtering, and a functional shopping cart.",
+      "A professional e-commerce platform built using the MERN stack. It features secure user authentication with JWT, dynamic product filtering, an interactive shopping cart and payment gateways.",
     image: projectImg5,
     live: "https://greencart-iota-one.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/client",
   },
   {
     title: "Tour and Travel Website",
-    description: "Responsive tour and travel website with booking features.",
+    description:
+      "A modern, responsive travel booking platform built with React. It features intuitive destination browsing , offering users a smooth and dynamic interface to plan their trips with ease.",
     image: projectImg2,
     live: "https://tour-and-travel-app-68nr.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/Tour-and-Travel-App",
   },
   {
     title: "Food Website",
-    description: "Modern food website UI built with HTML, CSS and JS.",
+    description:
+      "A modern, responsive food delivery interface built with HTML, CSS, and JavaScript. It features a sleek, visually engaging layout designed to provide a smooth browsing experience for food lovers.",
     image: projectImg1,
     live: "https://food-website-project-lemon.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/Food_Website_Frontend",
@@ -54,14 +56,16 @@ const projects = [
 
   {
     title: "News Website",
-    description: "Dynamic news website using API with real-time updates.",
+    description:
+      "A dynamic news platform that fetches real-time updates via API. It features a clean, responsive layout designed to provide users with an efficient and up-to-date reading experience.",
     image: projectImg4,
     live: "https://news-website-theta-orcin.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/News-Website",
   },
   {
     title: "Company Website",
-    description: "Responsive company website layout using HTML/CSS.",
+    description:
+      "A clean and responsive corporate website layout built with HTML and CSS. It features a professional design focused on showcasing company services with a structured and user-friendly interface.",
     image: projectImg3,
     live: "https://alihamzaahmad680-pixel.github.io/companies--website/#",
     github: "https://github.com/alihamzaahmad680-pixel/companies--website",

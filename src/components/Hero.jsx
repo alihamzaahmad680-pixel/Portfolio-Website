@@ -22,7 +22,7 @@ const Hero = () => {
 
           <h2 className="text-2xl font-semibold md:text-4xl mb-6 typewriter">
             {/* Frontend Developer */}
-            Full Stack Developer
+            MERN STACK Developer
           </h2>
 
           <p className="text-lg text-gray-300 mb-8">

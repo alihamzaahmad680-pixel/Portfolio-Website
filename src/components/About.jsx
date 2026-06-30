@@ -63,15 +63,15 @@ const About = () => {
                 {aboutInfo.map((data, index) => (
                   <div
                     key={index}
-                    className="bg-dark-300 rounded-2xl p-4 transition-transform duration-300 hover:-translate-y-2 cursor-pointer"
+                    className="bg-dark-300 text-white rounded-2xl p-4 transition-transform duration-300 hover:-translate-y-2 cursor-pointer hover:bg-purple"
                   >
-                    <div className="text-purple text-4xl mb-4">
+                    <div className="text-white text-4xl mb-4">
                       <data.icon />
                     </div>
 
                     <h3 className="text-xl font-semibold mb-3">{data.title}</h3>
 
-                    <p className="text-gray-400">{data.description}</p>
+                    <p className="text-white">{data.description}</p>
                   </div>
                 ))}
               </div>
