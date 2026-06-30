@@ -15,14 +15,13 @@ import projectImg1 from "../assets/project3.jpeg";
 import projectImg2 from "../assets/WhatsApp Image 2026-04-22 at 8.52.17 AM.jpeg";
 import projectImg3 from "../assets/WhatsApp Image 2026-03-27 at 11.40.57 AM.jpeg";
 import projectImg4 from "../assets/Breaking news on AI advancements.png";
-// import projectImg5 from "../assets/Modern calculator with sleek design.png";
 import projectImg5 from "../assets/project2.jpeg";
 import projectImg6 from "../assets/WhatsApp Image 2026-03-27 at 11.43.18 AM.jpeg";
 
 const projects = [
   {
     title: "Greecart Website",
-    tech: ["React", "Node.js", "MongoDB", "Express"], // Zarur add karein
+    tech: ["React", "Node.js", "MongoDB", "Express"], 
     icons: [FaReact, FaNodeJs, FaDatabase],
     description:
       "A feature-rich e-commerce platform built with MERN stack, featuring secure user authentication, product filtering, and a functional shopping cart.",
@@ -44,23 +43,6 @@ const projects = [
     live: "https://food-website-project-lemon.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/Food_Website_Frontend",
   },
-  // {
-  //   title: "Tour and Travel Website",
-  //   description: "Responsive tour and travel website with booking features.",
-  //   image: projectImg2,
-  //   live: "https://tour-and-travel-app-68nr.vercel.app/",
-  //   github: "https://github.com/alihamzaahmad680-pixel/Tour-and-Travel-App",
-  // },
-  // {
-  //   title: "Greecart Website",
-  //   tech: ["React", "Node.js", "MongoDB", "Express"], // Zarur add karein
-  //   icons: [FaReact, FaNodeJs, FaDatabase],
-  //   description:
-  //     "A feature-rich e-commerce platform built with MERN stack, featuring secure user authentication, product filtering, and a functional shopping cart.",
-  //   image: projectImg5,
-  //   live: "https://greencart-iota-one.vercel.app/",
-  //   github: "https://github.com/alihamzaahmad680-pixel/client",
-  // },
   {
     title: "Company Website",
     description: "Responsive company website layout using HTML/CSS.",
@@ -75,16 +57,6 @@ const projects = [
     live: "https://news-website-theta-orcin.vercel.app/",
     github: "https://github.com/alihamzaahmad680-pixel/News-Website",
   },
-  // {
-  //   title: "Greecart Website",
-  //   tech: ["React", "Node.js", "MongoDB", "Express"], // Zarur add karein
-  //   icons: [FaReact, FaNodeJs, FaDatabase],
-  //   description:
-  //     "A feature-rich e-commerce platform built with MERN stack, featuring secure user authentication, product filtering, and a functional shopping cart.",
-  //   image: projectImg5,
-  //   live: "https://greencart-iota-one.vercel.app/",
-  //   github: "https://github.com/alihamzaahmad680-pixel/client",
-  // },
   {
     title: "To-Do List",
     description: "Task management app with add/delete functionality.",
@@ -125,8 +97,6 @@ const Projects = () => {
                 <p className="text-gray-400 text-sm mb-4">
                   {project.description}
                 </p>
-
-                {/* 🔥 BUTTONS ADDED */}
                 <div className="flex gap-3">
                   <a
                     href={project.live}

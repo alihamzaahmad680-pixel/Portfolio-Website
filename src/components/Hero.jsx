@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion";
-// import profileImg from "../assets/WhatsApp Image 2026-03-27 at 7.53.57 AM.jpeg";
 import profileImg from "../assets/profile.jpeg";
 
 const Hero = () => {

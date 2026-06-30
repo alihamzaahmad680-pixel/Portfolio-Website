@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(formData); // check in console
+    console.log(formData); 
     alert("Message sent successfully!");
 
     // reset form
