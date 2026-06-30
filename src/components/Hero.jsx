@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion";
-import profileImg from "../assets/WhatsApp Image 2026-03-27 at 7.53.57 AM.jpeg";
+// import profileImg from "../assets/WhatsApp Image 2026-03-27 at 7.53.57 AM.jpeg";
+import profileImg from "../assets/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -21,7 +22,8 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-2xl font-semibold md:text-4xl mb-6 typewriter">
-            Frontend Developer
+            {/* Frontend Developer */}
+            Full Stack Developer
           </h2>
 
           <p className="text-lg text-gray-300 mb-8">
