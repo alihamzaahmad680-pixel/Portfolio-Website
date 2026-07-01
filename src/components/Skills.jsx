@@ -43,7 +43,7 @@ const Skills = () => {
             <div
               key={index}
               className="bg-dark-300 rounded-2xl p-6 flex flex-col items-center justify-center 
-              hover:-translate-y-2 transition duration-300 cursor-pointer shadow-lg border-2 border-white/5 hover:border-purple hover:bg-purple"
+              hover:-translate-y-2 transition duration-300 cursor-pointer shadow-lg border-2 border-white/5 hover:border-purple hover:bg-dark-100"
             >
               <div className={`text-5xl mb-4 ${skill.color}`}>{skill.icon}</div>
               <h3 className="text-gray-200 font-semibold text-lg">

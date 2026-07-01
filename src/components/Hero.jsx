@@ -21,7 +21,6 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-2xl font-semibold md:text-4xl mb-6 typewriter">
-            {/* Frontend Developer */}
             MERN STACK Developer
           </h2>
 
