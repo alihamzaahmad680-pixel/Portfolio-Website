@@ -55,7 +55,8 @@ const About = () => {
 
               <p className="text-gray-300 mb-6">
                 I enjoy solving complex problems and creating seamless
-                end-to-end web applications that provide great user experiences.
+                end-to-end web applications that provide great user
+                experiences.and.
               </p>
 
               {/* CARDS */}
