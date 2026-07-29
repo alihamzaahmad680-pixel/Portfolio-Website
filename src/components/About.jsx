@@ -150,7 +150,7 @@ const About = () => {
                 {aboutInfo.map((data, index) => (
                   <div
                     key={index}
-                    className="bg-dark-300 text-white rounded-2xl p-4 transition-transform duration-300 hover:-translate-y-2 cursor-pointer hover:bg-purple"
+                    className="bg-dark-300 text-white rounded-2xl p-4 transition-all duration-200 hover:-translate-y-2 cursor-pointer hover:bg-purple active:bg-purple active:-translate-y-1"
                   >
                     <div className="text-white text-4xl mb-4">
                       <data.icon />
