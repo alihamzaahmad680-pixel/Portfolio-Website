@@ -29,6 +29,21 @@ const Hero = () => {
             innovative design.
           </p>
 
+          {/* <div className="flex space-x-4">
+            <a
+              href="#projects"
+              className="px-6 bg-purple rounded-lg py-3 font-medium hover:bg-purple-700 transition"
+            >
+              View Work
+            </a>
+
+            <a
+              href="#contact"
+              className="px-6 border border-purple rounded-lg py-3 font-medium hover:bg-purple/20 transition"
+            >
+              Contact Me
+            </a>
+          </div> */}
           <div className="flex space-x-4">
             <a
               href="#projects"
@@ -42,6 +57,14 @@ const Hero = () => {
               className="px-6 border border-purple rounded-lg py-3 font-medium hover:bg-purple/20 transition"
             >
               Contact Me
+            </a>
+
+            <a
+              href="/cv.pdf"
+              download="Ali_Hamza_CV.pdf"
+              className="px-6 bg-purple rounded-lg py-3 font-medium hover:bg-purple-700 transition flex items-center gap-2"
+            >
+              Download CV
             </a>
           </div>
         </div>
