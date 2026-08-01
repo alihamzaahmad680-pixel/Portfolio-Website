@@ -8,6 +8,7 @@ import {
   FaMapMarkerAlt,
   FaPhone,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -20,7 +21,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(formData); 
+    console.log(formData);
     alert("Message sent successfully!");
 
     // reset form
@@ -171,6 +172,14 @@ const Contact = () => {
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink-400 hover:bg-pink-400 hover:text-white transition"
                 >
                   <FaDribbble />
+                </a>
+                <a
+                  href="https://wa.me/923211186522?text=Hi%20Ali%2C%20I%20want%20to%20discuss%20a%20project."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-green-400 hover:bg-green-500 hover:text-white transition"
+                >
+                  <FaWhatsapp />
                 </a>
               </div>
             </div>
