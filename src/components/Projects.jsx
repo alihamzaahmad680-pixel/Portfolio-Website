@@ -16,11 +16,12 @@ import projectImg2 from "../assets/WhatsApp Image 2026-04-22 at 8.52.17 AM.jpeg"
 import projectImg3 from "../assets/project5.jpeg";
 import projectImg4 from "../assets/Breaking news on AI advancements.png";
 import projectImg5 from "../assets/project2.jpeg";
-import projectImg6 from "../assets/project4.jpeg";
+// import projectImg6 from "../assets/project4.jpeg";
+import project9 from "../assets/project9.jpeg";
 
 const projects = [
   {
-    title: "Greecart Website",
+    title: "ZenithCart - Full-Stack E-Commerce Platform",
     tech: ["React", "Node.js", "MongoDB", "Express"],
     icons: [FaReact, FaNodeJs, FaDatabase],
     description:
@@ -30,7 +31,7 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/client",
   },
   {
-    title: "Tour and Travel Website",
+    title: "VoyageVista - Modern Travel & Booking Platform",
     description:
       "A modern, responsive travel booking platform built with React. It features intuitive destination browsing , offering users a smooth and dynamic interface to plan their trips with ease.",
     image: projectImg2,
@@ -38,7 +39,7 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/Tour-and-Travel-App",
   },
   {
-    title: "Food Website",
+    title: "FlavorFleet - Responsive Food Ordering Platform",
     description:
       "A modern, responsive food delivery interface built with HTML, CSS, and JavaScript. It features a sleek, visually engaging layout designed to provide a smooth browsing experience for food lovers.",
     image: projectImg1,
@@ -46,16 +47,16 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/Food_Website_Frontend",
   },
   {
-    title: "Ayah Search Hub",
+    title: "NexusMart - Multi-Vendor Marketplace",
     description:
-      "Explore the Holy Quran with authentic Arabic text and multi-language translations instantly.",
-    image: projectImg6,
-    live: "https://quran-aya-search-app.vercel.app/",
-    github: "https://github.com/alihamzaahmad680-pixel/Quran-Aya-Search-App",
+      "A feature-rich multi-vendor e-commerce web application supporting multiple sellers, dynamic product management, cart functionality, and secure user experiences.",
+    image: project9,
+    live: "https://e-shop-frontened-phi.vercel.app/",
+    github: "https://github.com/alihamzaahmad680-pixel/E-Shop-Project",
   },
 
   {
-    title: "News Website",
+    title: "ChronicleNews - Real-Time News Portal",
     description:
       "A dynamic news platform that fetches real-time updates via API. It features a clean, responsive layout designed to provide users with an efficient and up-to-date reading experience.",
     image: projectImg4,
@@ -63,7 +64,7 @@ const projects = [
     github: "https://github.com/alihamzaahmad680-pixel/News-Website",
   },
   {
-    title: "Company Website",
+    title: "CorpPulse - Professional Corporate Website",
     description:
       "A clean and responsive corporate website layout built with HTML and CSS. It features a professional design focused on showcasing company services with a structured and user-friendly interface.",
     image: projectImg3,

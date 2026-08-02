@@ -52,12 +52,12 @@ const Hero = () => {
               View Work
             </a>
 
-            <a
+            {/* <a
               href="#contact"
               className="px-6 border border-purple rounded-lg py-3 font-medium hover:bg-purple/20 transition"
             >
               Contact Me
-            </a>
+            </a> */}
 
             <a
               href="/cv.pdf"
